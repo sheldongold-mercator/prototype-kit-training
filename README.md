@@ -91,5 +91,5 @@ You should now see GOV.UK Prototype Kit running in your browser and you're ready
 - [Git and GitHub Crash Course for Beginners](https://www.youtube.com/watch?v=l2yrJtwoC_E&ab_channel=CameronMcKenzie)
 - [GitHub Skills - Interactive Course](https://skills.github.com/)
 - [Visual Studio Code for Beginners](https://www.youtube.com/watch?v=bfvq_kTbnd8&ab_channel=HeightAboveSeaLevel)
-- [Visual Studio Code - Keyboard Shortcut Cheatsheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Visual Studio Code - Keyboard Shortcut Cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Claude.ai](https://claude.ai/new)
