@@ -83,3 +83,13 @@ In your web browser, go to open [http://localhost:3000](http://localhost:3000).
 
 You should now see GOV.UK Prototype Kit running in your browser and you're ready for the training to begin!
 
+## Useful links and resources
+- [GOV.UK Prototype Kit - Tutorials and guides](https://prototype-kit.service.gov.uk/docs/tutorials-and-guides)
+- [GOV.UK Design sysetm](https://design-system.service.gov.uk/)
+- [HTML Cheat Sheet](https://html-css-js.com/html/tags/)
+- [The Accessibility Cheatsheet](https://bitsofco.de/the-accessibility-cheatsheet/)
+- [Git and GitHub Crash Course for Beginners](https://www.youtube.com/watch?v=l2yrJtwoC_E&ab_channel=CameronMcKenzie)
+- [GitHub Skills - Interactive Course](https://skills.github.com/)
+- [Visual Studio Code for Beginners](https://www.youtube.com/watch?v=bfvq_kTbnd8&ab_channel=HeightAboveSeaLevel)
+- [Visual Studio Code - Keyboard Shortcut Cheatsheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Claude.ai](https://claude.ai/new)
