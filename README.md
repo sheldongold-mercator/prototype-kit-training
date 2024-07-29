@@ -49,9 +49,9 @@ A repository contains all of the files in a prototype. You can use the repositor
 2. Click **File > Clone Repository**
 3. Click **URL** tab
 4. In the second **Local Path** field:
-  1. Click the **Choose...** button
-  2. Enter **prototypes** into the Clone As field
-  3. Navigate to your **Documents** folder
+	1. Click the **Choose...** button
+	2. Enter **prototypes** into the Clone As field
+	3. Navigate to your **Documents** folder
 5. In the first field paste: **sheldongold-mercator/prototype-kit-training**
 6. Click **Clone** button
 7. Click **Open in Visual Studio Code** button
@@ -77,7 +77,7 @@ In the terminal, enter:
 
 > npm run dev
 
-The first time you run npm run dev, the kit will ask you whether you want to send anonymous data to help the team improve the service. Enter y or n to answer yes or no.
+The first time you run npm run dev, the kit will ask you whether you want to send anonymous data to help the team improve the service. Enter **y** or **n** to answer yes or no.
 
 In your web browser, go to open [http://localhost:3000](http://localhost:3000).
 
@@ -85,7 +85,7 @@ You should now see GOV.UK Prototype Kit running in your browser and you're ready
 
 ## Useful links and resources
 - [GOV.UK Prototype Kit - Tutorials and guides](https://prototype-kit.service.gov.uk/docs/tutorials-and-guides)
-- [GOV.UK Design sysetm](https://design-system.service.gov.uk/)
+- [GOV.UK Design system](https://design-system.service.gov.uk/)
 - [HTML Cheat Sheet](https://html-css-js.com/html/tags/)
 - [The Accessibility Cheatsheet](https://bitsofco.de/the-accessibility-cheatsheet/)
 - [Git and GitHub Crash Course for Beginners](https://www.youtube.com/watch?v=l2yrJtwoC_E&ab_channel=CameronMcKenzie)
