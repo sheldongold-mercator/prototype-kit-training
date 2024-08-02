@@ -72,6 +72,12 @@ To navigate to your prototype, type this command into the terminal and press ent
 
 > cd ~/Documents/prototypes/prototype-kit-training
 
+### Installing the kit
+Only need to do this for the first time you wish to run this prototype 
+In the terminal, enter:
+
+> npm install
+
 ### Run the kit
 In the terminal, enter:
 
