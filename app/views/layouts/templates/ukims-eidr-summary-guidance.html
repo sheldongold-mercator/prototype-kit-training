@@ -1,0 +1,141 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  UKIMS-EIDR guide example
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Windsor framework",
+        href: "#"
+      },
+      {
+        text: "UKIMS-EIDR"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        UKIMS-EIDR
+      </h1>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+      
+      
+      <p class="govuk-body">
+      A UK Internal Market Scheme EIDR (UKIMS-EIDR) authorisation will allow traders who are UKIMS-authorised to make use of the EIDR process for GB-NI not-at-risk movements only. 
+      This will allow traders to benefit from EIDR throughout using a simpler application process.
+      </p>
+
+      <p class="govuk-body">
+      UKIMS-EIDR will allow traders to submit declarations after the movement has taken place.
+       However, traders must store information about that movement into their own records.
+      </p>
+      
+    
+      <h2 class="govuk-heading-m">How to use UKIMS-EIDR in the Goods Vehicle Movement Service (GVMS)</h2>
+
+      <p class="govuk-body">You will need to add the EORI number of the declarant when you are creating a goods movement reference (GMR). You will also need to add:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>an Entry Summary Declaration (ENS), also known as a Safety and Security declaration</li>
+        <li>a Local Reference Number (LRN)</li>
+      </ul>
+
+      <h2 class="govuk-heading-m">How to apply for UKIMS-EIDR authorisation</h2>
+
+      <p class="govuk-body">You’ll need to:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>be UKIMS-authorised - this means you can make not-at-risk movements into Northern Ireland without duties</li>
+        <li>can confirm your named person to identify errors in your records or notify HMRC of difficulties with compliance as confirmed in your <a href="https://www.gov.uk/guidance/apply-for-authorisation-for-the-uk-internal-market-scheme-if-you-bring-goods-into-northern-ireland" class="govuk-link">UKIMS authorisation</a></li>
+      </ul>
+
+      <p class="govuk-body">
+          Once you’re authorised, you’ll be able to declare your goods ‘not at risk’ if they are brought into Northern Ireland for sale or final use by end consumers in Northern Ireland (and Great Britain in the case of movements from Great Britain).
+      </p>
+
+      <h2 class="govuk-heading-m">Before you import goods using UKIMS-EIDR </h2>
+
+      <p class="govuk-body">You’ll need:</p>
+      <ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-9">
+        <li>an EORI number</li>
+        <li>to be authorised by HMRC to use UKIMS-EIDR to move goods</li>
+        <li>access to computer software that communicates with the Customs Declaration Service (CDS) for the purposes of supplementary declaration submissions</li>
+        <li>to allow HMRC to test your system to make sure it can communicate with the Custom Declaration Service (CDS)</li>
+      </ul>
+
+
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <p>
+        <a href="/">
+          Back to prototype start page
+        </a>
+      </p>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Related topics
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            {# <li>
+              <a href="../guidance-testing/ukims-eidr-summary-guidance">
+                UKIMS-EIDR
+              </a>
+            </li> #}
+            <li>
+              <a href="../guidance-testing/nop-waiver-summary-guidance">
+                NOP waiver
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
