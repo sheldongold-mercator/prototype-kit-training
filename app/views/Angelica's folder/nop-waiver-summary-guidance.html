@@ -1,0 +1,134 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  NOP waiver guide example
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Windsor framework",
+        href: "#"
+      },
+      {
+        text: "NOP waiver"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        NOP waiver
+      </h1>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+      
+      
+      <p class="govuk-body">
+      A Notification of Presentation (NOP) waiver is an authorisation that removes the need to present goods before they move when using an Entry in Declarant’s Records (EIDR) authorisation.
+      </p>
+      
+    
+      <p class="govuk-body">NOP waivers can only be used for goods moving via EIDR which are:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>standard goods - for example, goods that are not subject to controls</li>
+        <li>classified as not at risk of onward movement into the European Union (EU)</li>
+        <li>moving via direct movement from Great Britain to Northern Ireland</li>
+      </ul>
+
+      <h2 class="govuk-heading-m">Using a NOP waiver in the Goods Vehicle Movement System (GVMS)</h2>
+
+      <p class="govuk-body">
+      
+      If you’re moving goods on behalf of a trader who has a NOP waiver, you can tell HMRC about this when you are creating a goods movement reference (GMR). 
+      You will not need to enter an Entry Summary Declaration (ENS), also known as a Safety and Security declaration. 
+      
+      </p>
+
+      <h2 class="govuk-heading-m">How to get a NOP waiver</h2>
+      <p class="govuk-body">You need to apply online to be authorised. </p>
+      <p class="govuk-body">You’ll need to:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>hold a valid Authorised Economic Operator (AEO) authorisation - either Full Authorised Economic Operator (AEOF) or Authorised Economic Operator Customs Simplification (AEOC) authorisation</li>
+        <li>hold a valid SCDP-EIDR authorisation or UKIMS-EIDR authorisation</li>
+        <li>declare that the NOP waiver is being used in line with the conditions set out</li>
+      </ul>
+      <p class="govuk-body govuk-!-margin-bottom-9">
+
+      You’ll need to sign in with your Government Gateway ID and password. 
+      If you do not have a user ID, you can create one when you first try to sign in.
+    
+      </p>
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <p>
+        <a href="/">
+          Back to prototype start page
+        </a>
+      </p>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Related topics
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="../guidance-testing/ukims-eidr-summary-guidance">
+                UKIMS-EIDR
+              </a>
+            </li>
+            {# <li>
+              <a href="../guidance-testing/nop-waiver-summary-guidance">
+                NOP waiver
+              </a>
+            </li> #}
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
